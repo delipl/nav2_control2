@@ -261,6 +261,7 @@
       <parameters>$(find sam_bot_description)/config/diff_drive_controller.yaml</parameters>
       <ros>
         <remapping>/odom:=/demo/odom</remapping>
+        <remapping>/diff_drive_base_controller/cmd_vel_unstamped:=/demo/cmd_vel</remapping>
       </ros>
     </plugin>
   </gazebo>
